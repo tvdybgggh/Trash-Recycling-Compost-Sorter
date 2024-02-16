@@ -11,9 +11,17 @@ The Automated Waste Sorting System aims to revolutionize waste management by lev
 - OpenCV
 - NumPy
 
+### Hardware
+- Jetson Nano
+- Micro SD Card
+- Wifi Adapter
+- Keyboard
+- Webcam
+- Mouse
+
 ### Installation
 1. Clone the repository to your local machine.
-2. Install the required Python libraries using `pip install -r requirements.txt`.
+2. Install the required Python libraries
 3. Download the YOLOv4 and YOLOv3-tiny model weights and place them in the project directory.
 
 ### Running the Application
@@ -27,6 +35,9 @@ This project comprises two main components:
 
 ## Model Information
 The system uses the YOLO object detection models trained on the COCO dataset for recognizing a wide range of items. Specific categories relevant to waste sorting (e.g., bottles for recycling) are identified for targeted action.
+
+## Hardware Setup
+-Setup the hardware like it is shown in the images in the respository. The password to the current Jetson Nano is "tvdybgggh1"
 
 ## Future Work
 - Enhance the model's accuracy by training on a dataset specifically designed for waste materials.
